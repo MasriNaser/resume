@@ -1,0 +1,372 @@
+/* fontawsome */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* colors */
+:root {
+  --light-blue: #0bb5f4;
+  --light-color: #e6e9ff;
+  --gray: gray;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  background: var(--light-color);
+  margin: 20px;
+  color: #555555;
+}
+img {
+  max-width: 100px;
+}
+.ditails {
+  font-size: 12px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  border-right: 1px solid lightgray;
+  height: 220px;
+}
+/* transalte */
+.translate {
+  display: flex;
+  justify-content: start;
+}
+.translate button {
+  cursor: pointer;
+  padding: 5px 10px;
+  outline: none;
+  color: var(--light-blue);
+  background: var(--light-color);
+}
+button:hover {
+  animation: color-me-in 1s ease-in-out 0.5s infinite alternate;
+}
+@keyframes color-me-in {
+  from {
+    color: var(--light-blue);
+    background-color: var(--light-color);
+  }
+  to {
+    background-color: var(--light-blue);
+    color: var(--light-color);
+  }
+}
+
+.ditails h4 {
+  padding-top: 3px;
+}
+.ditails i {
+  margin-right: 2px;
+}
+a {
+  color: var(--light-blue);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  max-width: 990px;
+  margin: 40px auto;
+  padding: 30px;
+  background: var(--light-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+/* sections */
+section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+  padding: 24px 0px;
+  border-bottom: 1px solid lightgray;
+}
+section:last-child {
+  border-bottom: none;
+}
+section-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+div.section-title {
+  border-right: 1px solid lightgray;
+}
+/* main Info */
+
+img.avatar {
+  width: 150px;
+}
+.my-name {
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.my-title {
+  font-size: 20px;
+  font-weight: 300;
+  color: darkgray;
+}
+p {
+  margin-top: 10px;
+  text-align: justify;
+  word-spacing: -1px;
+  line-height: 2;
+}
+/* links */
+.links {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+i {
+  margin-right: 7px;
+}
+
+/* experience */
+.job {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid lightgray;
+}
+.job:last-child {
+  border-bottom: none;
+}
+.job-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.job-title {
+  color: var(--gray);
+  opacity: 0.8;
+  padding-top: 5px;
+  font-size: 14px;
+}
+.job-company {
+  font-weight: bold;
+  line-height: 1.2;
+}
+.date {
+  font-size: 14px;
+}
+.beslising {
+  margin-top: 20px;
+  font-weight: bold;
+}
+section:nth-child(2) > div:nth-child(2) > div:nth-child(7) {
+  padding: 0;
+  margin: 0;
+}
+/* skills */
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom: 24px;
+}
+
+/* interest */
+.interests-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.interests-container i {
+  margin-right: 7px;
+  opacity: 0.75;
+}
+/* precent% */
+li {
+  display: flex;
+  align-items: center;
+}
+.skill-name {
+  width: 25%;
+}
+.skill-pro {
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: var(--light-blue);
+  position: relative;
+}
+
+div.skill-pro > span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #fff;
+}
+
+/* Refernce */
+.refrence {
+  font-size: 18px;
+}
+.ref-links {
+  font-size: 12px;
+  display: flex;
+  margin: 5px 0px 40px 0px;
+  opacity: 0.5;
+}
+.ref-link-item span {
+  padding: 0px 10px;
+}
+.profile-en,
+.dutch,
+.engels {
+  display: none;
+}
+/* none */
+body > div > section:nth-child(7) {
+  display: none;
+}
+
+/* responsive 700 */
+@media (max-width: 700px) {
+  .beslising {
+    margin-top: 7px;
+    font-size: 12px;
+  }
+  .job {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .translate button {
+    margin-top: 3px;
+    padding: 2px 3px;
+    font-size: 12px;
+  }
+  p {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .links {
+    font-size: 14px;
+    margin: 5px auto;
+  }
+  .my-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .my-title {
+    font-size: 16px;
+  }
+  div.ditails {
+    height: auto;
+    /* border-right: none; */
+  }
+  .links,
+  .job-title-container {
+    flex-direction: column;
+  }
+  .job-title {
+    padding-top: 3px;
+    font-size: 10px;
+  }
+  .skills-container {
+    font-size: 12px;
+    grid-template-columns: 1fr;
+  }
+  .interests-container {
+    flex-wrap: wrap;
+    font-size: 10px;
+  }
+  i {
+    font-size: 8px;
+    margin: 0px 1px 0px -10px;
+  }
+  .section-title,
+  .job-company,
+  .skill-name {
+    font-size: 12px;
+  }
+  .ref-links {
+    margin: 2px 0px 6px 0px;
+  }
+}
+/* 500 real 570 */
+@media (max-width: 500px) {
+  section {
+    grid-template-columns: 1fr;
+  }
+  .img-ditails {
+    display: flex;
+    justify-content: space-between;
+  }
+  .beslising {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  .job {
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+  }
+  .translate button {
+    margin-top: 2px;
+    padding: 1px 2px;
+    font-size: 10px;
+  }
+  p {
+    margin-top: 2px;
+    font-size: 12px;
+  }
+  div.section-title {
+    border-right: none;
+  }
+  .links {
+    font-size: 12px;
+    margin: 1px auto;
+  }
+  .my-name {
+    font-size: 12px;
+    margin-bottom: 2px;
+    margin-left: -5px;
+  }
+  .my-title {
+    font-size: 14px;
+    margin-left: -5px;
+  }
+  div.ditails {
+    height: auto;
+    border-right: none;
+  }
+  .links,
+  .job-title-container {
+    flex-direction: column;
+  }
+  .job-title {
+    padding-top: 3px;
+    font-size: 10px;
+  }
+  .skills-container {
+    font-size: 12px;
+    grid-template-columns: 1fr;
+  }
+  .interests-container {
+    flex-wrap: wrap;
+    font-size: 10px;
+  }
+  i {
+    font-size: 8px;
+    margin: 0px 1px 0px -5px;
+  }
+  .section-title,
+  .job-company,
+  .skill-name {
+    font-size: 10px;
+  }
+  .ref-links {
+    margin: 2px 0px 6px 0px;
+  }
+}

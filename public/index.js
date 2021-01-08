@@ -1,0 +1,251 @@
+if (typeof document !== "undefined") {
+  const en_button = document.querySelector("button.engels");
+  const nl_button = document.querySelector("button.dutch");
+  const profile_nl = document.querySelector("p.profile-nl");
+  const profile_en = document.querySelector("p.profile-en");
+  const home_en = document.querySelector("p.home-en");
+  const home_nl = document.querySelector("p.home-nl");
+  const edg_en = document.querySelector("p.edg-en");
+  const edg_nl = document.querySelector("p.edg-nl");
+  const forward_nl = document.querySelector("p.forward-nl");
+  const forward_en = document.querySelector("p.forward-en");
+  const ida_en = document.querySelector("p.ida-en");
+  const ida_nl = document.querySelector("p.ida-nl");
+  const ewings_en = document.querySelector("p.ewings-en");
+  const ewings_nl = document.querySelector("p.ewings-nl");
+  const foursevens_en = document.querySelector("p.foursevens-en");
+  const foursevens_nl = document.querySelector("p.foursevens-nl");
+  const pomuni_en = document.querySelector("p.pomuni-en");
+  const pomuni_nl = document.querySelector("p.pomuni-nl");
+  const di_en = document.querySelector("p.di-en");
+  const di_nl = document.querySelector("p.di-nl");
+  const syria_en = document.querySelector("p.syria-en");
+  const syria_nl = document.querySelector("p.syria-nl");
+  const meraki_en = document.querySelector("p.meraki-en");
+  const meraki_nl = document.querySelector("p.meraki-nl");
+  const lingua_en = document.querySelector("p.lingua-en");
+  const lingua_nl = document.querySelector("p.lingua-nl");
+  const cvo_en = document.querySelector("p.cvo-en");
+  const cvo_nl = document.querySelector("p.cvo-nl");
+  const beslising_en = document.querySelector("div.beslising-en");
+  const beslising_nl = document.querySelector("div.beslising-nl");
+  const study_en = document.querySelector("p.study-en");
+  const study_nl = document.querySelector("p.study-nl");
+  const aleppo_en = document.querySelector("p.aleppo-en");
+  const aleppo_nl = document.querySelector("p.aleppo-nl");
+  const skills_en = document.querySelector("div.skills-en");
+  const skills_nl = document.querySelector("div.skills-nl");
+  const taal_en = document.querySelector("div.taal-en");
+  const taal_nl = document.querySelector("div.taal-nl");
+  const arab_en = document.querySelector("li.arab-en");
+  const arab_nl = document.querySelector("li.arab-nl");
+  const engels_en = document.querySelector("li.engels-en");
+  const engels_nl = document.querySelector("li.engels-nl");
+  const dutch_en = document.querySelector("li.dutch-en");
+  const dutch_nl = document.querySelector("li.dutch-nl");
+  const intersts_en = document.querySelector("div.intersts-en");
+  const intersts_nl = document.querySelector("div.intersts-nl");
+  const paard_en = document.querySelector("div.paard-en");
+  const paard_nl = document.querySelector("div.paard-nl");
+  const voet_en = document.querySelector("div.voet-en");
+  const voet_nl = document.querySelector("div.voet-nl");
+  const fiets_en = document.querySelector("div.fiets-en");
+  const fiets_nl = document.querySelector("div.fiets-nl");
+  const askim_en = document.querySelector("div.askim-en");
+  const askim_nl = document.querySelector("div.askim-nl");
+  const david_en = document.querySelector("div.david-en");
+  const david_nl = document.querySelector("div.david-nl");
+  const samira_en = document.querySelector("div.samira-en");
+  const samira_nl = document.querySelector("div.samira-nl");
+  const edu_en = document.querySelector("div.edu-en");
+  const edu_nl = document.querySelector("div.edu-nl");
+  const emp_en = document.querySelector("div.emp-en");
+  const emp_nl = document.querySelector("div.emp-nl");
+  const pro_en = document.querySelector("p.pro-en");
+  const pro_nl = document.querySelector("p.pro-nl");
+
+  en_button.style.display = 'block';
+  home_en.style.display = 'none';
+  edg_en.style.display = 'none';
+  forward_en.style.display = 'none';
+  ida_en.style.display = 'none';
+  ewings_en.style.display = 'none';
+  foursevens_en.style.display = 'none';
+  pomuni_en.style.display = 'none';
+  di_en.style.display='none';
+  syria_en.style.display = 'none';
+  meraki_en.style.display = 'none';
+  lingua_en.style.display = 'none';
+  cvo_en.style.display = 'none';
+  beslising_en.style.display = 'none';
+  study_en.style.display = 'none';
+  aleppo_en.style.display = 'none';
+  skills_en.style.display = 'none';
+  taal_en.style.display = 'none';
+  arab_en.style.display = 'none';
+  engels_en.style.display = 'none';
+  dutch_en.style.display = 'none';
+  intersts_en.style.display = 'none';
+  paard_en.style.display = 'none';
+  voet_en.style.display = 'none';
+  fiets_en.style.display = 'none';
+  askim_en.style.display = 'none';
+  david_en.style.display = 'none';
+  samira_en.style.display = 'none';
+  edu_en.style.display = 'none';
+  emp_en.style.display = 'none';
+  pro_en.style.display = 'none';
+
+
+  en_button.addEventListener("click", function () {
+    profile_en.style.display = "block";
+    profile_nl.style.display = "none";
+    home_en.style.display = "block";
+    home_nl.style.display = "none";
+    edg_en.style.display = "block";
+    edg_nl.style.display = "none";
+    forward_en.style.display = "block";
+    forward_nl.style.display = "none";
+    ida_en.style.display = "block";
+    ida_nl.style.display = "none";
+    ewings_en.style.display = "block";
+    ewings_nl.style.display = "none";
+    foursevens_en.style.display = 'block';
+    foursevens_nl.style.display = 'none';
+    pomuni_en.style.display = 'block';
+    pomuni_nl.style.display = 'none';
+    di_en.style.display= 'block';
+    di_nl.style.display= 'none';
+    syria_en.style.display = 'block';
+    syria_nl.style.display = 'none';
+    meraki_en.style.display = 'block';
+    meraki_nl.style.display = 'none';
+    lingua_en.style.display = 'block';
+    lingua_nl.style.display = 'none';
+    cvo_en.style.display = 'block';
+    cvo_nl.style.display = 'none';
+    beslising_en.style.display = 'block';
+    beslising_nl.style.display = 'none';
+    study_en.style.display = 'block';
+    study_nl.style.display = 'none';
+    aleppo_en.style.display = 'block';
+    aleppo_nl.style.display = 'none';
+    skills_en.style.display = 'block';
+    skills_nl.style.display = 'none';
+    taal_en.style.display = 'block';
+    taal_nl.style.display = 'none';
+    arab_en.style.display = 'block';
+    arab_nl.style.display = 'none';
+    engels_en.style.display = 'block';
+    engels_nl.style.display = 'none';
+    dutch_en.style.display = 'block';
+    dutch_nl.style.display = 'none';
+    intersts_en.style.display = 'block';
+    intersts_nl.style.display = 'none';
+    paard_en.style.display = 'block';
+    paard_nl.style.display = 'none';
+    voet_en.style.display = 'block';
+    voet_nl.style.display = 'none';
+    fiets_en.style.display = 'block';
+    fiets_nl.style.display = 'none';
+    askim_en.style.display = 'block';
+    askim_nl.style.display = 'none';
+    david_en.style.display = 'block';
+    david_nl.style.display = 'none';
+    samira_en.style.display = 'block';
+    samira_nl.style.display = 'none';
+    edu_en.style.display = 'block';
+    edu_nl.style.display = 'none';
+    emp_en.style.display = 'block';
+    emp_nl.style.display = 'none';
+    pro_en.style.display = 'block';
+    pro_nl.style.display = 'none';
+    toggle(true);
+  });
+
+  nl_button.addEventListener("click", function () {
+    profile_en.style.display = "none";
+    profile_nl.style.display = "block";
+    home_en.style.display = "none";
+    home_nl.style.display = "block";
+    edg_en.style.display = "none";
+    edg_nl.style.display = "block";
+    forward_en.style.display = "none";
+    forward_nl.style.display = "block";
+    ida_en.style.display = "none";
+    ida_nl.style.display = "block";
+    ewings_en.style.display = "none";
+    ewings_nl.style.display = "block";
+    foursevens_en.style.display = 'none';
+    foursevens_nl.style.display = 'block';
+    pomuni_en.style.display = 'none';
+    pomuni_nl.style.display = 'block';
+    di_en.style.display = 'none';
+    di_nl.style.display = 'block';
+    syria_en.style.display = 'none';
+    syria_nl.style.display = 'block';
+    meraki_en.style.display = 'none';
+    meraki_nl.style.display = 'block';
+    lingua_en.style.display = 'none';
+    lingua_nl.style.display = 'block';
+    cvo_en.style.display = 'none';
+    cvo_nl.style.display = 'block';
+    beslising_en.style.display = 'none';
+    beslising_nl.style.display = 'block';
+    study_en.style.display = 'none';
+    study_nl.style.display = 'block';
+    aleppo_en.style.display = 'none';
+    aleppo_nl.style.display = 'block';
+    skills_en.style.display = 'none';
+    skills_nl.style.display = 'block';
+    taal_en.style.display = 'none';
+    taal_nl.style.display = 'block';
+    arab_en.style.display = 'none';
+    arab_nl.style.display = 'block';
+    engels_en.style.display = 'none';
+    engels_nl.style.display = 'block';
+    dutch_en.style.display = 'none';
+    dutch_nl.style.display = 'block';
+    paard_en.style.display = 'none';
+    paard_nl.style.display = 'block';
+    voet_en.style.display = 'none';
+    voet_nl.style.display = 'block';
+    fiets_en.style.display = 'none';
+    fiets_nl.style.display = 'block';
+    askim_en.style.display = 'none';
+    askim_nl.style.display = 'block';
+    david_en.style.display = 'none';
+    david_nl.style.display = 'block';
+    samira_en.style.display = 'none';
+    samira_nl.style.display = 'block';
+    edu_en.style.display = 'none';
+    edu_nl.style.display = 'block';
+    emp_en.style.display = 'none';
+    emp_nl.style.display = 'block';
+    pro_en.style.display = 'none';
+    pro_nl.style.display = 'block';
+    toggle(false);
+  });
+
+  const toggle = (isEnButtonShown) => {
+    if (isEnButtonShown) {
+      nl_button.style.display = "block";
+      en_button.style.display = 'none';
+    } else {
+      nl_button.style.display = "none";
+      en_button.style.display = 'block';
+    }
+  };
+}
+// delpoy
+const firebaseConfig = {
+  apiKey: "AIzaSyC29aq-77YaPckT50eEzq__SqVt22TjWmw",
+  authDomain: "resume-cea32.firebaseapp.com",
+  databaseURL: "https://resume-cea32.firebaseio.com",
+  projectId: "resume-cea32",
+  storageBucket: "resume-cea32.appspot.com",
+  messagingSenderId: "381430027596",
+  appId: "1:381430027596:web:aa57685bb2434734a0ebe9",
+  measurementId: "G-8V66ZWJPJK"
+};
+
