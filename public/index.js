@@ -5,6 +5,8 @@ if (typeof document !== "undefined") {
   const profile_en = document.querySelector("p.profile-en");
   const home_en = document.querySelector("p.home-en");
   const home_nl = document.querySelector("p.home-nl");
+  const cro_en = document.querySelector("p.cro-en");
+  const cro_nl = document.querySelector("p.cro-nl");
   const edg_en = document.querySelector("p.edg-en");
   const edg_nl = document.querySelector("p.edg-nl");
   const forward_nl = document.querySelector("p.forward-nl");
@@ -66,6 +68,7 @@ if (typeof document !== "undefined") {
 
   en_button.style.display = 'block';
   home_en.style.display = 'none';
+  cro_en.style.display = 'none';
   edg_en.style.display = 'none';
   forward_en.style.display = 'none';
   ida_en.style.display = 'none';
@@ -102,6 +105,8 @@ if (typeof document !== "undefined") {
     profile_nl.style.display = "none";
     home_en.style.display = "block";
     home_nl.style.display = "none";
+    cro_en.style.display = "block";
+    cro_nl.style.display = "none";
     edg_en.style.display = "block";
     edg_nl.style.display = "none";
     forward_en.style.display = "block";
@@ -168,6 +173,8 @@ if (typeof document !== "undefined") {
     profile_nl.style.display = "block";
     home_en.style.display = "none";
     home_nl.style.display = "block";
+    cro_en.style.display = "none";
+    cro_nl.style.display = "block";
     edg_en.style.display = "none";
     edg_nl.style.display = "block";
     forward_en.style.display = "none";
