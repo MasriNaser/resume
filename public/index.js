@@ -176,8 +176,8 @@ if (typeof document !== "undefined") {
   nl_button.addEventListener("click", function () {
     profile_en.style.display = "none";
     profile_nl.style.display = "block";
-    net_en.style.display = "block";
-    net_nl.style.display = "none";
+    net_en.style.display = "none";
+    net_nl.style.display = "block";
     home_en.style.display = "none";
     home_nl.style.display = "block";
     cro_en.style.display = "none";
